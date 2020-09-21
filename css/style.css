@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+@font-face{
+	font-family:"Nunito";
+	src:url("../fonts/nunito/Nunito-Regular.ttf");
+	
+}
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+   
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #E2D6FF;
+}
+#hero{
+	padding:7%;
+	background-color:#D7F8FF;
+	
+}
+.hello{
+	margin-top:25%;
+}
+.logo{
+	margin-top:45%;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+#about{
+	padding-top:5%;
+	
+}
+p{
+	margin-top:4%;
+	font-size:2.5vw;
+	
+}
+#about h2{
+	text-align:right;
+
+	
+}
+h2{
+	margin-top:4%;
+	font-size:4vw;
+	
+}
+.yo{
+	margin-top:4%;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+	 font-size: 2.5vw;
+}
+.servicon{
+	font-size:3.5vw;
+	margin-top:25%;
+}
+#services{
+	background-color:#C7FEFF;
+	padding:10%;
+}
+li{
+	padding:5px;
+	
+}
+.columnasservice{
+	text-align:center;
+}
+.servtitle{
+	font-size:3vw;
+}
+
+#services h2{
+	margin-top:0%;
+}
+
+.subtitle{
+	padding-top:5%;
+}
+#works h2{
+	text-align: right;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+#works h3{
+	text-align:center;
+	margin-top:5%;
+	margin-bottom:20%;
+	font-weight:lighter;
+	font-size:2vw;
+}
+#works{
+	padding:10%;
+	background-color:#BADBEE;
+}
+label{
+	font-weight:bolder;
+}
+#nombre, #correo, #mensaje{
+	color:#BADBEE;
+	border-radius:9px;
+	
+}
+.fa-twitter,.fa-instagram{
+	font-size:45px;
+	padding:30%;
+	margin-left:25%;
+	color:black!important;
+}
+.btn-submit{
+	background-color:#BADBEE;
+	font-weight:bolder;
+	border-radius:9px;
+}
+footer{
+	padding:5%;
+}
+.endpg{
+	color:#CDCDCD;
+	text-align:center;
+	font-size:1vw;
+}
